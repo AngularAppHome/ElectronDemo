@@ -1,1 +1,11 @@
-<router-outlet></router-outlet>
+<main-layout
+    [title]="'Yora Technologies'"
+    [hasSideNav]="false"
+    [menuItems]="menuItems"
+    [logoUrl]="'assets/images/logo.png'">
+    <router-outlet></router-outlet>
+    <div fxLayoutAlign="center center" class="app__footer">
+        <span>&copy; 2018 - Yora Technologies
+        </span>
+    </div>
+</main-layout>
