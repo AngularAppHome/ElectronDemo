@@ -5,7 +5,7 @@ import {FormsModule, ReactiveFormsModule} from "@angular/forms";
 import {HttpModule} from "@angular/http";
  import {
      MatButtonModule, MatCardModule, MatIconModule, MatSidenavModule, MatToolbarModule,
-     MatTooltipModule, MatProgressBarModule, MatSlideToggleModule, MatDialogModule, MatMenuModule, MatSliderModule,
+     MatTooltipModule, MatProgressBarModule, MatSlideToggleModule, MatMenuModule, MatSliderModule,
      MatTabsModule, MatCheckboxModule, MatRadioModule, MatChipsModule, MatDatepickerModule, MatNativeDateModule, MatTableModule,
      MatSortModule, MatPaginatorModule
  } from "@angular/material";
@@ -17,6 +17,7 @@ import {CdkTableModule} from '@angular/cdk/table';
 import {FlexLayoutModule} from "@angular/flex-layout";
 //import {NgxChartsModule} from '@swimlane/ngx-charts';
 import {MainLayoutModule} from "./layouts/main-layout/main-layout.module";
+import { MatDialogModule } from '@angular/material/dialog';
 
 @NgModule({
     imports: [
@@ -49,9 +50,11 @@ import {MainLayoutModule} from "./layouts/main-layout/main-layout.module";
         MatDatepickerModule,
         MatNativeDateModule,
         MatTableModule,        
+        MatDialogModule,
         //MatCoreModule,
         MatSortModule,
         MatPaginatorModule,
+
         CdkTableModule,
         // Chart module
         //NgxChartsModule,
@@ -86,7 +89,8 @@ import {MainLayoutModule} from "./layouts/main-layout/main-layout.module";
         MatChipsModule,
         MatDatepickerModule,
         MatNativeDateModule,
-        MatTableModule,        
+        MatTableModule,     
+        MatDialogModule,   
         //MatCoreModule,
         MatSortModule,
         MatPaginatorModule,
