@@ -16,7 +16,7 @@ export const ROUTES: Routes = [
     {path: 'user', component: UserComponent, data: {title: 'User'}},
     {path: 'product',component: ProductComponent,data:{title:'Product'}},
 
-    // default redirect
+    // default redirect 
     {path: '**', redirectTo: '/home'}
 ];
 

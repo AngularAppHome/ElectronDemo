@@ -8,7 +8,7 @@ import { FormsModule } from '@angular/forms';
 import {MatRadioModule} from '@angular/material/radio';
 import {MatDatepickerModule} from '@angular/material/datepicker';
 import {MatSelectModule} from '@angular/material/select';
-
+import {MatButtonModule} from '@angular/material/button';
 import { HttpClientModule, HttpClient } from '@angular/common/http';
 import { AppRoutingModule } from './app-routing.module';
 import 'hammerjs';
@@ -43,6 +43,7 @@ export function HttpLoaderFactory(http: HttpClient) {
     FormsModule,
     MatRadioModule,
     MatSelectModule,
+    MatButtonModule,
     MatDatepickerModule,
     HttpClientModule,
     AppRoutingModule,
