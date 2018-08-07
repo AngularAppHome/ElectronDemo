@@ -23,6 +23,7 @@ import { HomeComponent } from './components/home/home.component';
 import { UserComponent } from './components/user/user.component';
 import { ProductComponent } from './components/product/product.component';
 import {DialogOverviewExampleDialog} from './components/product/product.component';
+import { UserDialog } from './components/user/user.component';
 // AoT requires an exported function for factories
 export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http, './assets/i18n/', '.json');
@@ -35,7 +36,8 @@ export function HttpLoaderFactory(http: HttpClient) {
     WebviewDirective,
     UserComponent,
     ProductComponent,
-    DialogOverviewExampleDialog
+    DialogOverviewExampleDialog,
+    UserDialog
   ],
   imports: [
     BrowserModule,
@@ -57,7 +59,7 @@ export function HttpLoaderFactory(http: HttpClient) {
     })
   ],
   providers: [ElectronService],
-  entryComponents: [DialogOverviewExampleDialog],
+  entryComponents: [DialogOverviewExampleDialog,UserDialog],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

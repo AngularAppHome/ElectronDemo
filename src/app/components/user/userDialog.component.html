@@ -1,0 +1,45 @@
+
+  <h1 mat-dialog-title id="title" class="example-form">
+    ADD USER</h1>
+  <table class="example-full-width" cellspacing="0" aling="center" class="example-form">
+    <tr>
+      <td>
+        <mat-form-field class="example-full-width">
+          <input matInput placeholder="Name" [(ngModel)]="userdata.name">
+        </mat-form-field>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <mat-form-field class="example-full-width">
+          <input matInput placeholder="Username" [(ngModel)]="userdata.username">
+        </mat-form-field>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <mat-form-field class="example-full-width">
+          <input matInput placeholder="Password " [(ngModel)]="userdata.password">
+        </mat-form-field>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <mat-form-field class="example-full-width">
+          <input matInput placeholder="Email" [(ngModel)]="userdata.email">
+        </mat-form-field>
+      </td>
+    </tr>  
+    <tr>
+        <td>
+          <mat-form-field class="example-full-width">
+            <input matInput placeholder="Phone" [(ngModel)]="userdata.phone">
+          </mat-form-field>
+        </td>
+      </tr>    
+  </table>     
+  <mat-divider class="example-form"></mat-divider>
+<div mat-dialog-actions class="example-buttun">
+    <button mat-button (click)="onNoClick()" style="color: red" >No Thanks</button>  
+    <button mat-button (click)="onAdd()"  cdkFocusInitial  style="color:blue">Ok</button>         
+</div>
