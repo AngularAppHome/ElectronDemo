@@ -4,15 +4,49 @@
   #title{
     text-align: center;
     color: brown;
-    background-color:rgb(243, 236, 236);
+    background-color:rgb(229, 227, 240);
+    margin: auto;
+    width: 100%;   
+    padding: 1px;
+    margin-left: 0%;
+    margin-right: auto;
+    border: 10px thick red;
+    margin-top: 0%;
   }
   .example-form{
     margin: auto;
-    width: 60%;   
-    padding: 10px;
-  }
-  .example-buttun{
-    margin-left: 40%;
+    width: 100%;   
+    padding: 1px;
+    margin-left: 0%;
     margin-right: auto;
+    border: 10px thick red;
+  } 
+  .example-buttun{
+    margin-left: 30%;
+    margin-right: 30%;
     width: 40%;
   }
+  .frm{
+    margin: auto;
+    width: 600px;
+    height: 500px;
+    margin-left: 0%;
+    margin-right: auto;
+    padding: 10px;
+  }
+ .example-full-width{
+  margin: auto;
+  width: 100%;   
+  padding: 5px;
+  margin-left: 70px;
+  margin-right: 70px;
+ }
+  
+//   .example-form {
+//   display: flex;
+//   flex-direction: column;
+//   width: 100%;
+// }
+// .example-form > * {
+//   width: 100%;
+// }
