@@ -41,6 +41,7 @@
     "@angular/cdk": "^6.4.2",
     "@angular/flex-layout": "^6.0.0-beta.17",
     "@angular/material": "^6.4.2",
+    "bootstrap": "^4.1.3",
     "hammerjs": "^2.0.8",
     "rxjs-compat": "^6.2.2"
   },
